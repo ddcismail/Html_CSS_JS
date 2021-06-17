@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uygulama03</title>
+</head>
+<body>
+    <h1>Lütfen Formu Eksiksiz Doldurunuz!</h1>
+    <hr>
+
+    <h4>Hesap Bilgileriniz</h4>
+
+    <form action="">
+        <p>
+        Kullanıcı Adı: <input type="text" name="username" placeholder="Kullanıcı adı giriniz" required >
+        </p>
+
+        <p>
+        Eposta : <input type="email" name="eposta" placeholder="Eposta giriniz" required >
+        </p>
+
+        <p>
+        Parola : <input type="password" name="parola" placeholder="Parola giriniz" required >
+        </p>        
+        
+    <h4>Kişisel Bilgileriniz</h4>
+
+    <p>
+    Ad: <input name="ad" required>
+    </p>
+
+    <p>
+    Soyad: <input name="soyad" required>
+    </p>
+
+    <p>
+        Şehir:
+        <select name="şehir">
+            <option >Seçiniz</option>
+            <option> İstanbul</option>
+            <option> Ankara</option>
+            <option> Denizli</option>
+            <option> İzmir</option>
+        </select>
+    </p>
+
+    <p>
+        Cinsiyet : 
+        <input type="radio" name="cinsiyet">Erkek
+        <input type="radio" name="cinsiyet">Kadın
+    </p>
+    
+    <p>
+        Hobileriniz :
+        <input type="checkbox" name="hobi"> Kitap Okumak
+        <input type="checkbox" name="hobi"> Sinema
+        <input type="checkbox" name="hobi"> Gezmek 
+
+    </p>
+    <input type="submit" value="Kaydet">
+    </form>
+</body>
+</html>
