@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        /*		
+			** Tüm kutulara 300px genişlik ve yükseklik veriniz.
+		    ** Tüm kutulara border veriniz.
+			** Box #1 : kırmızı , Box #2 : blue , Box #1 : turuncu arkaplan renklerini veriniz.
+		    ** Tüm kutuları yan yana getirin. 
+			** Sayfa başlığının yüksekliğini 150px ve arkaplan rengini ise mavi yapınız.
+		*/
+        
+        div {
+            height: 150px;
+            background-color: blue;
+        }
+        
+        .box {
+            width: 200px;
+            height: 200px;
+            background-color: blue;
+            border: 1px solid black;
+            float: left;
+        }
+        
+        #first {
+            background-color: red;
+        }
+        
+        #second {
+            background-color: blue;
+        }
+        
+        #third {
+            background-color: orange;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="header">
+        Game Header
+    </div>
+
+    <div id="first" class="box">
+        Box #1
+    </div>
+
+    <div id="second" class="box">
+        Box #2
+    </div class="box">
+
+    <div id="third" class="box">
+        Box #3
+    </div>
+
+</body>
+
+</html>
