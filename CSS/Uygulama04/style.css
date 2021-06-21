@@ -13,6 +13,9 @@
     width: 25%;
     display: inline;
     float: right;
+    position: fixed;
+    top: 20px;
+    right: 0;
 }
 
 img {
@@ -32,4 +35,14 @@ img {
 
 .tags li a {
     text-decoration: none;
+}
+
+.date {
+    position: absolute;
+    top: 0;
+    right: 50px;
+}
+
+.blog-post {
+    position: relative;
 }
