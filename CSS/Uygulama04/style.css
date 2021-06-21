@@ -1,17 +1,35 @@
 #container {
     width: 1140px;
+    display: inline-block;
 }
 
 #blog-post-container {
     width: 75%;
+    display: inline;
     float: left;
 }
 
 #other-posts {
     width: 25%;
-    float: left;
+    display: inline;
+    float: right;
 }
 
 img {
     width: 200px;
+}
+
+.tags li {
+    display: inline;
+    list-style: none;
+    margin: 5px;
+}
+
+.tags {
+    margin: 0;
+    padding: 0;
+}
+
+.tags li a {
+    text-decoration: none;
 }
