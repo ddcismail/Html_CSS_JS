@@ -1,18 +1,17 @@
 #container {
     width: 1140px;
-    background-color: chartreuse;
 }
 
 #blog-post-container {
     width: 75%;
-    background-color: aquamarine;
+    float: left;
 }
 
 #other-posts {
     width: 25%;
-    background-color: bisque;
+    float: left;
 }
 
-#author-box {
-    border: 1px solid red;
+img {
+    width: 200px;
 }
