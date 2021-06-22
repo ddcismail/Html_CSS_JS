@@ -6,10 +6,13 @@
 
 body {
     background: #f1f1f1;
+    font-family: 'Vollkorn', serif;
 }
 
 h2 {
     margin-bottom: 10px;
+    font-size: 30px;
+    opacity: 0.9;
 }
 
 #container {
@@ -31,14 +34,10 @@ h2 {
     margin-top: 10px;
 }
 
-#innorder-other-post {
-    position: fixed;
-}
-
 .tags li {
     display: inline;
     list-style: none;
-    margin: 5px;
+    margin-top: 5px;
 }
 
 .tags li a {
@@ -83,4 +82,21 @@ h2 {
     float: left;
     margin-top: 60px;
     margin-left: 20px;
+}
+
+#share a {
+    color: grey;
+    padding-right: 12px;
+    opacity: 0.9;
+}
+
+#share a:hover {
+    color: red;
+    opacity: 0.6;
+}
+
+.tags {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-size: 18px;
 }
