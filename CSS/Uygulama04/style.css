@@ -16,7 +16,7 @@ h2 {
 }
 
 #container {
-    width: 1140px;
+    width: 1000px;
     margin: 20px auto;
 }
 
@@ -30,7 +30,7 @@ h2 {
 #other-posts {
     width: 25%;
     float: right;
-    padding-left: 10px;
+    padding-left: 20px;
     margin-top: 10px;
 }
 
@@ -46,7 +46,7 @@ h2 {
 
 .date {
     position: absolute;
-    top: 20px;
+    bottom: 40px;
     right: 50px;
 }
 
@@ -56,14 +56,22 @@ h2 {
 
 .blog-post img {
     width: 100%;
-    margin-top: 15px;
-    margin-bottom: 10px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    transition: opacity 0.3s;
+}
+
+.blog-post img:hover {
+    opacity: 0.8;
+    cursor: pointer;
 }
 
 .box {
     background: white;
+    border-radius: 5px;
     margin-bottom: 15px;
-    padding: 20px;
+    padding: 0px;
+    box-shadow: 2px 4px 8px 2px rgba(0, 0, 0, 0.20);
 }
 
 #author-box {
@@ -71,10 +79,9 @@ h2 {
 }
 
 #author-box img {
-    width: 100px;
-    height: 160px;
-    padding-top: 10px;
+    width: 14%;
     border-radius: 50%;
+    margin-top: 10px;
     float: left;
 }
 
@@ -87,18 +94,20 @@ h2 {
 #share a {
     color: grey;
     padding-right: 12px;
+    transition: opacity 0.3s;
     opacity: 0.9;
 }
 
 #share a:hover {
     color: red;
     opacity: 0.6;
+    font-size: 15px;
 }
 
 .tags {
     margin-top: 10px;
     margin-bottom: 15px;
-    font-size: 15px;
+    font-size: 14px;
 }
 
 ul {
@@ -116,10 +125,29 @@ ul li {
 }
 
 .tag {
-    background: black;
+    background: rgb(240, 72, 72);
     color: white;
     display: inline-block;
     padding: 1px 3px;
     text-align: center;
     border-radius: 15%;
+    transition: opacity 0.3s;
+    transition: background-color 0.3s;
+}
+
+.tag:hover {
+    background-color: black;
+}
+
+.p20 {
+    padding: 20px;
+}
+
+.blog-text {
+    color: grey;
+    transition: color 0.3s;
+}
+
+.blog-text:hover {
+    color: black;
 }
