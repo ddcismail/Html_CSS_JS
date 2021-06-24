@@ -5,11 +5,11 @@
     }
     
     html {
-        font-size: 10px;
+        font-size: 8px;
     }
     
     body {
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Kalam', cursive;
         color: white;
         font-size: 1.6rem;
         line-height: 1.5;
@@ -28,6 +28,12 @@
     img {
         width: 100%;
         height: auto;
+    }
+    
+    .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
     }
     /*HEADER*/
     
@@ -62,7 +68,7 @@
     }
     
     .btn:hover {
-        background-color: #eaeaea;
+        background-color: #fff;
         color: #333;
     }
     /*SECTİON-A*/
@@ -86,6 +92,11 @@
         background-color: #fff;
         color: #333;
         margin-bottom: 1.5rem;
+        transition: background-color 0, 3s;
+    }
+    
+    #section-b ul li:hover {
+        background-color: rgb(221, 220, 220);
     }
     
     .col-content {
@@ -101,7 +112,7 @@
     /*SECTİON-D*/
     
     #section-d .box:first-child {
-        background-color: aqua;
+        background-color: rgb(2, 204, 204);
     }
     
     #section-d .box {
@@ -116,4 +127,46 @@
     
     footer a {
         color: blue;
+    }
+    
+    .name {
+        transition: all 0.3;
+    }
+    
+    .name:hover {
+        color: red;
+    }
+    
+    .icons a {
+        color: #fff;
+        padding: .6rem;
+        font-size: 1.9rem;
+        transition: all 0.3s;
+    }
+    
+    .icons :hover {
+        color: blue;
+        font-size: 1.8rem;
+    }
+    /*---------------------------------------------*/
+    
+    @media screen and (min-width:800px) {
+        html {
+            font-size: 9px;
+        }
+    }
+    
+    @media screen and (min-width:1200px) {
+        #section-b li {
+            width: 28%;
+            margin: 1%;
+            display: inline-block;
+        }
+        .box {
+            width: 50%;
+            float: left;
+        }
+        html {
+            font-size: 12px;
+        }
     }
