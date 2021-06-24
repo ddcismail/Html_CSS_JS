@@ -91,3 +91,29 @@
     .col-content {
         padding: 1rem;
     }
+    /*SECTİON-C*/
+    
+    #section-c {
+        background-color: #eaeaea;
+        color: #333;
+        padding: 5rem;
+    }
+    /*SECTİON-D*/
+    
+    #section-d .box:first-child {
+        background-color: aqua;
+    }
+    
+    #section-d .box {
+        padding: 5rem;
+    }
+    /*FOOTER*/
+    
+    footer {
+        background-color: black;
+        padding: 5rem;
+    }
+    
+    footer a {
+        color: blue;
+    }
