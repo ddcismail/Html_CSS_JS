@@ -1,0 +1,1 @@
+alert("Ilk Javascript Sayfama Hosgeldin Kullanici...") ;
