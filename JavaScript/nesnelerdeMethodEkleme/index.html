@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Egitimim</title>
+    <script type="text/javascript"> 
+    
+    var ogrenci={
+            ad:"Ismail",
+            soyad:"DEDEC",
+            yas:"21",
+            adsoyad:function(){
+
+                return this.ad+" "+this.soyad;
+
+            },
+            dogumyilhesapla:function(){
+
+                return(2021-this.yas);
+
+            }
+        }
+       
+        document.writeln(ogrenci.adsoyad()+"<br>");
+        document.writeln(ogrenci.dogumyilhesapla());
+
+    
+    
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
