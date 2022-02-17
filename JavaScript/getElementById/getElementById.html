@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>JS Gelisimim</title>
+
+	<style type="text/css">
+		
+		#ismail {
+
+			color:green;
+		}
+
+	</style>
+
+</head>
+<body>
+
+	<p id="js">Javascript Egitimim</p>
+
+	<input id="adgir" type="text" placeholder="Adinizi Girin" name="">
+	<br><br>
+	
+	<input id="sec" type="checkbox" name=""> Secim Yap
+	<br><br>
+	<button id="islem" onclick="renklendir()">Id degistir</button>
+	<button id="secimYap" onclick="secimYap()">Isaretle</button>
+
+
+
+
+
+
+	<script type="text/javascript">
+		
+	/*
+	getElementById
+	*/
+	console.log(document.getElementById("js"));
+
+	function renklendir(){
+
+		document.getElementById("js").id="ismail";
+		document.getElementById("adgir").placeholder="Soyadinizi Girin";
+	}
+
+	function secimYap(){
+
+		document.getElementById("sec").checked=true;
+	}
+
+</script>
+</body>
+</html>
