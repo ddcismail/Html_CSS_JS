@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>JS Gelisimim</title>
+
+	<style type="text/css">
+
+
+
+</style>
+
+</head>
+<body>
+
+	
+	<p>Programlama Dilleri</p>
+	<p>Ismail DEDEC</p>
+	<p>JS Kursu</p>
+
+	<ul>
+		<li>Php</li>
+		<li>Bootstrap</li>
+		<li>JQuery</li>
+		<li>Javascript</li>
+	</ul>
+
+	<br><br>
+	<button onclick="say()">Elemanlari Say</button>
+
+
+	<script type="text/javascript">
+		
+	/*
+	getElementsByTagName
+	*/
+		
+	//console.log(document.getElementsByTagName("p")[0]);
+	console.log(document.getElementsByTagName("p"));
+
+/*	var e=document.getElementsByTagName("p");
+	alert(e.length);*/
+
+	function say(){
+
+		alert(document.getElementsByTagName("li").length+" eleman bulunmaktadir.")
+	}
+	
+
+</script>
+</body>
+</html>
