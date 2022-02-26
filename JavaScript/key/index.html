@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Egitimim</title>
+</head>
+<body>
+    <button onmousedown="islemCtrl(event)">CTRL Tuşuna Basarak Tıkla</button>
+    <button onmousedown="islemAlt(event)">Alt Tuşuna Basarak Tıkla</button>
+    <button onmousedown="islemShift(event)">Shift Tuşuna Basarak Tıkla</button>
+
+
+
+    <script>
+        function islemCtrl(event){
+            if(event.ctrlKey){
+                alert("CTRL Tuşuna Basarak Butonu Aktifleştirdiniz");
+            }
+            else
+            alert("CTRL Tuşuna Basarak Tıklayınız")
+        }
+        function islemAlt(event){
+            if(event.altKey){
+                alert("Alt Tuşuna Basarak Butonu Aktifleştirdiniz");
+            }
+            else
+            alert("Alt Tuşuna Basarak Tıklayınız")
+        }
+
+        function islemShift(event){
+            if(event.shiftKey){
+                alert("Shift Tuşuna Basarak Butonu Aktifleştirdiniz");
+            }
+            else
+            alert("Shift Tuşuna Basarak Tıklayınız")
+        }
+
+
+    </script>
+</body>
+</html>
