@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>JavaScript Egitimim</title>
+
+
+</head>
+<body >
+	
+
+	<button onmousedown="islem()">Mouse' tuşlarından birine tıkla</button>
+
+	<div id="sonuc"></div>
+	
+
+	<script type="text/javascript">
+
+		
+		/*
+		Which
+
+		1 => Mouse sol tuşu
+		2 => Orta Tuş
+		3 => Sağ tuş
+
+		*/
+
+		function islem(){
+
+			document.getElementById("sonuc").innerHTML="Tıkladığınız Tuş :"+event.which;
+
+
+		}
+
+	
+
+			
+
+	</script>
+</body>
+</html>
